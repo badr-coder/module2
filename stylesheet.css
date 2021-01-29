@@ -26,12 +26,10 @@ div{
     
 
 }
-p{
-    clear:right; 
-}
+
 h3{
     border:1px solid black; 
-    float:right ; 
+    float:right; 
     margin:0px; 
     background-color:dodgerblue; 
     text-align:center;
@@ -39,7 +37,12 @@ h3{
     top:-7px; 
     left:7px;  
     padding:1%;     
+    font-size:1.5em; 
     
+}
+p{
+    clear:right; 
+    font-size:1.25em; 
 }
 
 @media (min-width:992px){
